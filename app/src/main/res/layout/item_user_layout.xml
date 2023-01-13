@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soup.neumorphism.NeumorphCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="40dp"
+    app:neumorph_backgroundColor="@color/white"
+    style="@style/ShapeAppearance.Neumorph.CardView"
+    app:neumorph_shadowElevation="8dp"
+    app:neumorph_lightSource="rightTop"
+
+    app:neumorph_shapeType="basin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        >
+
+
+        <ImageView
+
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/userImage"
+            android:scaleType="fitXY"
+
+            android:layout_weight="0.45"
+            />
+
+        <TextView
+            android:id="@+id/userName"
+            android:text="USER NAME"
+
+            android:layout_marginBottom="3dp"
+           android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/userEmail"
+            android:text="USER EMAIL"
+            android:layout_marginBottom="3dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.55"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+
+            >
+
+          <soup.neumorphism.NeumorphFloatingActionButton
+              style="@style/Widget.Neumorph.FloatingActionButton"
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:scaleType="center"
+              app:neumorph_shapeType="basin"
+              android:id="@+id/videoCall"
+              android:src="@drawable/ic_video"
+
+              />
+
+
+
+          <soup.neumorphism.NeumorphFloatingActionButton
+              style="@style/Widget.Neumorph.FloatingActionButton"
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:scaleType="center"
+              android:id="@+id/chat"
+              app:neumorph_shapeType="basin"
+              android:src="@drawable/ic_chat"
+
+              />
+
+
+
+          <soup.neumorphism.NeumorphFloatingActionButton
+              style="@style/Widget.Neumorph.FloatingActionButton"
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:id="@+id/fav"
+              android:scaleType="center"
+              app:neumorph_shapeType="basin"
+              android:src="@drawable/ic_fav"
+
+              />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</soup.neumorphism.NeumorphCardView>
