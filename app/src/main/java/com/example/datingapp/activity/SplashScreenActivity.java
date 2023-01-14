@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 
 import com.example.datingapp.MainActivity;
 import com.example.datingapp.R;
@@ -22,7 +23,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
         auth=FirebaseAuth.getInstance();
-       user=auth.getCurrentUser();
+         user=auth.getCurrentUser();
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -30,9 +31,10 @@ public class SplashScreenActivity extends AppCompatActivity {
 
                 if(user==null)
                     startActivity(new Intent(SplashScreenActivity.this, LoginActivity.class));
-               else
-                   startActivity(new Intent(SplashScreenActivity.this, MainActivity.class));
+               else {
+                    startActivity(new Intent(SplashScreenActivity.this, MainActivity.class));
 
+                }
                 finish();
             }
         },2000);

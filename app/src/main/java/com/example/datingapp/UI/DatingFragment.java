@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +19,7 @@ import com.example.datingapp.adapter.DatingAdapter;
 import com.example.datingapp.databinding.ActivityLoginBinding;
 import com.example.datingapp.databinding.FragmentDatingBinding;
 import com.example.datingapp.model.UserModel;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -59,9 +61,11 @@ public class DatingFragment extends Fragment {
                       {
                           for(DataSnapshot d:snapshot.getChildren())
                           {
-
                               UserModel data=d.getValue(UserModel.class);
-                              list.add(data);
+                              if( (data.getNumber().toString() ).equals(FirebaseAuth.getInstance().getCurrentUser().getPhoneNumber().toString()))
+                                  continue;
+                              else
+                                list.add(data);
                           }
                          Collections.shuffle(list);
                           init();

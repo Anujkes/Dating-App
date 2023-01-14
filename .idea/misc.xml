@@ -8,16 +8,21 @@
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/drawable/ic_login.xml" value="0.1" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/drawable/ic_otp.xml" value="0.1" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/drawable/ic_person.xml" value="0.236" />
+        <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/activity_login.xml" value="0.4" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/activity_main.xml" value="0.1245674740484429" />
+        <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/activity_message.xml" value="0.176" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/drawer_header.xml" value="0.2" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/fragment_dating.xml" value="0.264" />
-        <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/fragment_message.xml" value="0.1" />
+        <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/fragment_message.xml" value="0.2" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/item_user_layout.xml" value="0.264" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/loading_layout.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/receiver_layout.xml" value="0.36363636363636365" />
+        <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/sender_layout.xml" value="0.2" />
+        <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/layout/user_item_layout.xml" value="0.2453125" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
         <entry key="..\:/Users/anujk/AndroidStudioProjects/DatingApp/app/src/main/res/menu/drawer_menu.xml" value="0.152" />
       </map>
